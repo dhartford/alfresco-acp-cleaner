@@ -19,3 +19,6 @@ This is a basic, blunt tool to quickly review and handle simple modifications to
   - zip file and content backup with the newly generated myacp.xml file, rename .zip to .acp
   - import ACP
 
+# Developer notes - require java and maven to build.
+  - mvn clean package
+  - in the /target/ folder should be an acp-cleaner.jar file ready for use.
