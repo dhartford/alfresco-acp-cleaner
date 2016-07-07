@@ -1,6 +1,6 @@
 # alfresco-acp-cleaner
 
-This is a really quickly-made commandline tool to help cleanup ACP files before importing them into target Alfresco instances.
+This is a really quickly-made commandline tool to help cleanup ACP (Alfresco Content Package) files before importing them into target Alfresco instances.
   * purge renditions (thumbnails) from the old system/ACP file before they get imported into the new system.
   * review USERS and optionally rename them to make sure target system has the users before ACP import.
   * review CUSTOM CONTENT MODEL (defined as not http://www.alfresco... or http://www.jcp.org... namespaced) to make sure target system has the expected content models before ACP import.
