@@ -7,6 +7,8 @@ This is a really quickly-made commandline tool to help cleanup ACP files before 
   
 This is a basic, blunt tool to quickly review and handle simple modifications to make the ACP import process easier.
 
+java -jar acp-cleaner.jar -? 
+
 
 # Common usage scenario
   - rename myacp.acp file to myacp.zip.
