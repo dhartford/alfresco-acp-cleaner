@@ -16,6 +16,6 @@ This is a basic, blunt tool to quickly review and handle simple modifications to
   - java -jar acp-cleaner.jar -p -r *:admin -f myacp.xml
   - review again if desired
   - java -jar acp-cleaner.jar -a -f myacp.xml
-  - zip file backup with the newly generated myacp.xml file, rename .zip to .acp
+  - zip file and content backup with the newly generated myacp.xml file, rename .zip to .acp
   - import ACP
 
